@@ -1,0 +1,149 @@
+.th1-removebg-preview.png{
+    width: 200px;
+    height: 100px;
+}
+.thbass-removebg-preview.th1-removebg-preview.png{
+    width: 200px;
+    height: 100px;
+}
+.logop{
+    width: 50px;
+    height: 50px;
+}
+.lupa{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-bottom: 20px;
+}
+header {
+    grid-template-areas: cabeca;
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    margin-left: 10%; 
+    box-sizing: border-box;
+}
+aside {
+    grid-template-areas: secundario;
+    background-color: #804848;
+    padding: 20px;
+    width: 8vw;  /* usa vw para largura relativa à largura da janela de visualização */
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+aside img {
+    display: block;
+    margin-bottom: 20px;
+}
+aside nav ul {
+    list-style: none;
+    padding: 0;
+}
+aside nav ul li {
+    margin-bottom: 10px;
+}
+aside nav ul li a {
+    text-decoration: none;
+    color: #ff4a4a;
+}
+aside nav ul li a:hover {
+    color: #000000;
+}
+main{
+    background-color: #665;
+    grid-template-areas: principal;
+    padding: 80px;
+    margin-right: 10%; 
+    box-sizing: border-box; 
+    margin: auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+}
+footer {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border-radius: 20px;
+    width: 380px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 23px;
+    background-color: rgb(115, 115, 202);
+    transition: 0.5s;
+}
+.card :hover{
+    background-color: rgb(112, 96, 96);
+
+}
+
+.card img{
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card a{
+    border-radius: 10px;
+    background-color: orange;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 1s;
+}
+.card a:hover{
+    background-color: rgb(147, 183, 214);
+    color: brown;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        grid-template-areas:
+        "cabeca, cabeca, cabeca"
+        "secundario, secundario, secundario"
+        "principal, principal, principal"
+        "rodape, rodape, rodape"
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+}
+
+.elementomae{
+    height: 300px;
+    justify-content: space-between;
+    border: 2px; color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
