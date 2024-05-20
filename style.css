@@ -10,28 +10,27 @@
     width: 50px;
     height: 50px;
 }
-.lupa{
+.cart{
+    margin-right: 90px;
     width: 50px;
     height: 50px;
-    display: block;
-    margin-bottom: 20px;
 }
 header {
     grid-template-areas: cabeca;
-    background-color: #333;
+    background-color: #6966668f;
     color: #fff;
-    padding: 40px;
+    padding: 27px;
     text-align: center;
     left: 0;
     top: 0;
-    margin-left: 10%; 
+    margin-left: 7%; 
     box-sizing: border-box;
 }
 aside {
     grid-template-areas: secundario;
     background-color: #804848;
-    padding: 20px;
-    width: 8vw;  /* usa vw para largura relativa à largura da janela de visualização */
+    padding: 8px;
+    width: 8vw;  
     position: fixed;
     left: 0;
     top: 0;
@@ -57,9 +56,8 @@ aside nav ul li a:hover {
     color: #000000;
 }
 main{
-    background-color: #665;
+    background-color: rgb(231, 231, 206);
     grid-template-areas: principal;
-    padding: 80px;
     margin-right: 10%; 
     box-sizing: border-box; 
     margin: auto;
@@ -69,11 +67,14 @@ main{
     align-items: center; 
     gap: 10px; 
 }
-footer {
-    position: fixed;
-    height: 100px;
-    width: 100px;
-    background-color: cadetblue;
+footer{
+    background-color: #333;
+    color: #ceacac;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
 }
 .caixa_mae{
     display: flex;
@@ -82,14 +83,14 @@ footer {
 }
 .card{
     border-radius: 20px;
-    width: 380px;
-    height: 450px;
+    width: 300px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 23px;
-    background-color: rgb(115, 115, 202);
+    background-color: rgb(86, 99, 70);
     transition: 0.5s;
 }
 .card :hover{
@@ -108,10 +109,10 @@ footer {
     background-color: orange;
     display: block;
     height: 30px;
-    width: 120px;
+    width: 100px;
     text-align: center;
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(76, 112, 84);
     transition: 1s;
 }
 .card a:hover{
