@@ -12,8 +12,9 @@
     margin-right: 70px;
 }
 header {
+    font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: cabeca;
-    background-color: #3a3737;
+    background-color: #dfc2c2;
     color: #fff;
     padding: 27px;
     text-align: center;
@@ -23,6 +24,7 @@ header {
     box-sizing: border-box;
 }
 aside {
+    font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: secundario;
     background-color: #804848;
     padding: 8px;
@@ -52,20 +54,20 @@ aside nav ul li a:hover {
     color: #000000;
 }
 main{
-    background-color: rgb(141, 141, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(110, 110, 99);
     grid-template-areas: principal;
     margin-right: 10%; 
     box-sizing: border-box; 
     margin: auto;
-    padding: 100px;
     display: flex;
     flex-direction: row; 
     justify-content: center; 
     align-items: center; 
-    gap: 10px; 
 }
 footer{
-    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4caca;
     color: #ceacac;
     padding: 10px;
     text-align: center;

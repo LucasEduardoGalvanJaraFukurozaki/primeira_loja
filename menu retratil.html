@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu retrátil</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.menu a {
+  display: block;
+  padding: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #ccc;
+}
+
+.botao-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.botao-menu:hover {
+  background-color: #ccc;
+}
+
+.botao-menu img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+</head>
+<body>
+<div class="menu">
+  <a href="#">Home</a>
+  <a href="#">Sobre</a>
+  <a href="#">Contato</a>
+</div>
+<button class="botao-menu">
+  <img src="imagem.png" alt="Menu">
+</button>
+</body>
+</html>
