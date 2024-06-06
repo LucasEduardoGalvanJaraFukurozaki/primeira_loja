@@ -1,30 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #5d615d;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, rgb(102, 102, 64), rgb(103, 145, 70), rgb(69, 92, 69));
 }
-
 .login {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #0d2e00;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 
 .email, .senha {
     margin-bottom: 10px;
-    color: #ccc;
+    color: #000000;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
-    color: #ccc;
+    color: #000000;
 }
 input {
     width: 100%;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 3px;
 }
 
