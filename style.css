@@ -42,7 +42,7 @@ body{
 header{
     font-family: Arial, Helvetica, sans-serif;
     grid-area: cabeca;
-    background-color: #e7cdcd;
+    background-color: #e2e2e2;
     color: #fff;
     text-align: center;
     left: 0;
@@ -53,9 +53,9 @@ header{
 aside{
     font-family: Arial, Helvetica, sans-serif;
     grid-area: secundario;
-    background-color: #804848;
-    padding: 8px;
-    width: 8vw;  
+    background-color: #002ae4;
+    text-align: center;
+    width: 10vw;  
     position: fixed;
     left: 0;
     top: 0;
@@ -84,14 +84,14 @@ aside nav ul li{
 }
 aside nav ul li a{
     text-decoration: none;
-    color: #ff4a4a;
+    color: #ffffff;
 }
 aside nav ul li a:hover{
     color: #000000;
 }
 main{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(80, 80, 75);
+    background-color: rgb(223, 213, 213);
     grid-area: principal;
     margin-right: 10%; 
     box-sizing: border-box; 
@@ -106,7 +106,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: rodap;
     background-color: #fce3e3;
-    color: #ceacac;
+    color: #000000;
     padding: 10px;
     text-align: center;
     bottom: 0;
@@ -127,12 +127,11 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 23px;
-    background-color: rgb(237, 223, 255);
+    background-color: rgb(63, 63, 60);
     transition: 0.5s;
 }
 .card :hover{
-    background-color: rgb(112, 96, 96);
-
+    background-color: rgb(163, 155, 155);
 }
 
 .card img{
@@ -149,12 +148,12 @@ footer{
     width: 100px;
     text-align: center;
     text-decoration: none;
-    color: rgb(76, 112, 84);
+    color: rgb(255, 255, 255);
     transition: 1s;
 }
 .card a:hover{
-    background-color: rgb(147, 183, 214);
-    color: brown;
+    background-color: rgb(74, 127, 226);
+    color: rgb(255, 255, 255);
 }
 .menu{
     display: none;
